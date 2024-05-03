@@ -49,3 +49,8 @@ public class OrderTest {
     order.sendEmailNotification("johndoe@example.com");
   }
 }
+
+# UML Diagram
+![SOLID Principle](https://github.com/CorderoEarl/SolidPrinciple/assets/142371953/9a107317-b82d-4a9f-8c0a-43f817454345)
+
+
