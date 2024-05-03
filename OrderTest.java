@@ -2,7 +2,7 @@ public class OrderTest {
     public static void main(String[] args) {
         OrderCalculation orderCalculation = new OrderCalculationService();
         OrderProcess orderProcess = new OrderProcessService();
-        OrderInvoice orderInvoice = new OrderInvoiceServer();
+        OrderInvoice orderInvoice = new OrderInvoiceService();
         Notification notification = new NotificationService();
 
         orderCalculation.calculateTotal(150, 3);

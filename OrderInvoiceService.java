@@ -1,4 +1,4 @@
-public class OrderInvoiceServer implements OrderInvoice{
+public class OrderInvoiceService implements OrderInvoice{
     
     @Override
     public void generateInvoice(String fileName) {
